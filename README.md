@@ -62,3 +62,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+##Installation
+1. Download project .zip
+2. Put your project in your htdocs if you use Xampp, or put in www if you using Laragon
+3. Git Bash Project
+4. If the terminal have open, you write composer install
+5. Make database and import database in this folder .sql
+6. Open your project with your favorite code editor
+7. write php artisan key:generate
+8. if your project there is no .env you can make or copy from .env.example 
+9. change the database name based on your database
+10. write php artisan key:generate
+11. run the program with php artisan serve
+
